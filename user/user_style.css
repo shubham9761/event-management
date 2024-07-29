@@ -1,0 +1,123 @@
+body{
+    background-color: cornsilk;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-color: cornsilk;
+}
+.first{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+.sec{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+}
+.maintain{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-large;
+    padding: 100px;
+}
+.vendorslist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: x-large;
+    padding: 50px;
+}
+.membership{
+    background-color: indianred;
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    padding: 4vh 0;
+}
+.member{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.update{
+    padding: 1em;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.manageuser{
+    background-color: darkorange;
+    display: flex;
+    justify-content: space-around;
+    padding: 4vh 0;
+    font-size: x-large;
+}
+.managevendor{
+    background-color: darkorange;
+    display: flex;
+    justify-content: space-around;
+    padding: 4vh 0;
+    font-size: x-large;
+}
+.manage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 5px;
+    text-align: center;
+}
+.abox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.smallbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+    font-size: large;
+    border: 3px solid darkgray;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.smallbox:hover{
+    background-color: black;
+    color:white;
+}
+button{
+    cursor: pointer;
+}
