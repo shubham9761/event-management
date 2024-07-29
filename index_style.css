@@ -1,0 +1,117 @@
+body{
+    background-color: cornsilk;
+    color: black;
+}
+.welcome{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 20px auto;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* border: 2px solid rgb(26, 22, 16); */
+    background-color: cornsilk;
+}
+.first{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+.sec{
+    /* background-color: indianred; */
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+}
+.maintain{
+    /* background-color: darkorange; */
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-large;
+    margin: 30px auto;
+}
+.membership{
+    background-color: indianred;
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    padding: 4vh 0;
+}
+.member{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.update{
+    padding: 1em;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.manageuser{
+    background-color: darkorange;
+    display: flex;
+    justify-content: space-around;
+    padding: 4vh 0;
+    font-size: x-large;
+}
+.managevendor{
+    background-color: darkorange;
+    display: flex;
+    justify-content: space-around;
+    padding: 4vh 0;
+    font-size: x-large;
+}
+.manage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 5px;
+    text-align: center;
+}
+.abox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    /* background-color: white; */
+    /* border: 2px solid green; */
+    border-radius: 5px;
+    
+}
+.aboxs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    /* background-color: white; */
+    border: 10px solid black;
+    border-radius: 5px;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+.aboxs:hover{
+    background-color: coral;
+}
